@@ -1,0 +1,89 @@
+.modern-auth {
+  display: block;
+  min-height: 100vh;
+  background: #f4f6f8;
+  padding: 48px 20px;
+}
+
+.modern-auth .auth-art {
+  display: none;
+}
+
+.modern-auth .auth-form {
+  display: block;
+  min-height: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.modern-auth .auth-inner {
+  width: min(100%, 440px);
+  margin: 0 auto;
+  padding: 34px 36px 30px;
+  background: #fff;
+  border: 1px solid #e7eaed;
+  border-radius: 16px;
+  box-shadow: 0 18px 45px rgba(26, 39, 51, .08);
+}
+
+.modern-auth .mobile-brand {
+  display: block;
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.modern-auth .mobile-brand .auth-brand-lockup {
+  color: var(--ink);
+  font-size: 21px;
+  justify-content: center;
+}
+
+.modern-auth .mobile-brand::after {
+  content: 'Your AI-powered career companion';
+  display: block;
+  margin: 10px 0 30px;
+  color: var(--muted);
+  font-size: 13px;
+  text-align: center;
+}
+
+.modern-auth .mobile-brand .auth-brand-lockup strong {
+  font-size: 0;
+}
+
+.modern-auth .mobile-brand .auth-brand-lockup strong::after {
+  content: 'AI Career Copilot';
+  font-size: 21px;
+}
+
+.modern-auth .form-heading {
+  text-align: center;
+}
+
+.modern-auth .form-heading .auth-kicker {
+  display: none;
+}
+
+.modern-auth .form-heading h2 {
+  margin-top: 0;
+}
+
+.modern-auth .auth-submit,
+.modern-auth .social-button {
+  min-height: 46px;
+}
+
+.modern-auth .auth-divider,
+.modern-auth .social-button {
+  display: none;
+}
+
+@media (max-width: 520px) {
+  .modern-auth {
+    padding: 24px 14px;
+  }
+
+  .modern-auth .auth-inner {
+    padding: 28px 22px 24px;
+  }
+}
